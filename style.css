@@ -107,3 +107,78 @@ button{
     max-width: 200px;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote .text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    text-align: left;
+    max-width: 1100px;
+    margin-top: 100px;
+}
+
+.cite{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 100px;
+    margin-left: 800px;
+}
+
+.modal{
+    background-color: #3882F6;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    padding: 25px 200px;
+    max-width: 1100px;
+}
+
+.modal .head{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.modal .text{
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.modal button{
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 20px;
+    margin: 25px 0;
+}
+
+.modal .htext{
+    width: 700px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
